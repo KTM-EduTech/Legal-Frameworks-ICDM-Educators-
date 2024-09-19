@@ -62,8 +62,10 @@ main section h2 {
     margin-bottom: 5px;
     padding-top: 25px;
     padding-left: 15px;
+    font-size: 22px;
 }
 main section h3 {
+    font-size: 18px;
     margin-bottom: 5px;
     padding-left: 25px;
     color: #766f20;
@@ -74,6 +76,7 @@ main section p {
     margin-bottom: 10px;
     padding-left: 25px;
     color: #1c1d1e;
+    font-size: 14px;
 
 }
 
