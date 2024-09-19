@@ -1,160 +1,163 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ICT Click Digital Media - Legal Frameworks</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ICT Click Digital Media - Legal Frameworks</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 20px;
+            }
 
-        .container {
-            text-align: center;
-            margin-top: 50px;
-        }
+            .container {
+                text-align: center;
+                margin-top: 50px;
+            }
 
-        .framework-link {
-            display: inline-block;
-            margin: 10px;
-            padding: 10px 20px;
-            background-color: #997516;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
+            .framework-link {
+                display: inline-block;
+                margin: 10px;
+                padding: 10px 20px;
+                background-color: #997516;
+                color: white;
+                text-decoration: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
 
-        .framework-link:hover {
-            background-color: #e91a1a;
-        }
+            .framework-link:hover {
+                background-color: #e91a1a;
+            }
 
-        /* Lightbox Styles */
-        .lightbox {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.8);
-            justify-content: center;
-            align-items: center;
-            z-index: 1000;
-        }
+            /* Lightbox Styles */
+            .lightbox {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.8);
+                justify-content: center;
+                align-items: center;
+                z-index: 1000;
+            }
 
-        .lightbox-content {
-            background-color: #fff;
-            padding: 20px;
-            width: 80%;
-            max-width: 600px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            text-align: center;
-        }
+            .lightbox-content {
+                background-color: #fff;
+                padding: 20px;
+                width: 80%;
+                max-width: 600px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                text-align: center;
+            }
 
-        .close-btn {
-            display: inline-block;
-            margin-top: 10px;
-            padding: 10px 20px;
-            background-color: #e91a1a;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
+            .close-btn {
+                display: inline-block;
+                margin-top: 10px;
+                padding: 10px 20px;
+                background-color: #e91a1a;
+                color: white;
+                text-decoration: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
 
-        .close-btn:hover {
-            background-color: #b51414;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="container">
-        <h1>ICT Click Digital Media | Educator</h1>
-        <h2>Legal Frameworks</h2>
-        <div class="framework-link" data-target="terms">Terms and Conditions</div>
-        <div class="framework-link" data-target="privacy">Privacy Policy</div>
-        <div class="framework-link" data-target="cookies">Cookie Policy</div>
-        <div class="framework-link" data-target="affiliate">Affiliate Disclosure</div>
-        <div class="framework-link" data-target="disclaimer">Disclaimer</div>
-    </div>
-
-    <!-- Lightbox Modal for each framework -->
-    <div class="lightbox" id="terms">
-        <div class="lightbox-content">
-            <h2>Terms and Conditions</h2>
-            CLICK TO VIEW<a href="/terms-and-conditions.html" target="_blank"> <b>TERMS AND CONDITIONS</b></a><br>
-            <a href="#" class="close-btn">Close</a>
+            .close-btn:hover {
+                background-color: #b51414;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>ICT Click Digital Media | Educator</h1>
+            <h2>Legal Frameworks</h2>
+            <div class="framework-link" data-target="terms">Terms and Conditions</div>
+            <div class="framework-link" data-target="privacy">Privacy Policy</div>
+            <div class="framework-link" data-target="cookies">Cookie Policy</div>
+            <div class="framework-link" data-target="affiliate">Affiliate Disclosure</div>
+            <div class="framework-link" data-target="disclaimer">Disclaimer</div>
         </div>
-    </div>
 
-    <div class="lightbox" id="privacy">
-        <div class="lightbox-content">
-            <h2>Privacy Policy</h2>
-            CLICK TO VIEW<a href="/privacy-policy.html" target="_blank"> <b>PRIVACY POLICY</b></a><br>
-            <a href="#" class="close-btn">Close</a>
+        <!-- Lightbox Modal for each framework -->
+        <div class="lightbox" id="terms">
+            <div class="lightbox-content">
+                <h2>Terms and Conditions</h2>
+                CLICK TO VIEW<a href="/Legal-Frameworks-ICDM-Educators-/terms-and-conditions.html" target="_blank"> <b>TERMS AND CONDITIONS</b></a
+                ><br />
+                <a href="#" class="close-btn">Close</a>
+            </div>
         </div>
-    </div>
 
-    <div class="lightbox" id="cookies">
-        <div class="lightbox-content">
-            <h2>Cookie Policy</h2>
-            CLICK TO VIEW<a href="/cookie-policy.html" target="_blank"> <b>COOKIE POLICY</b></a><br>
-            <a href="#" class="close-btn">Close</a>
+        <div class="lightbox" id="privacy">
+            <div class="lightbox-content">
+                <h2>Privacy Policy</h2>
+                CLICK TO VIEW<a href="/Legal-Frameworks-ICDM-Educators-/terms-and-conditions.html/privacy-policy.html" target="_blank"> <b>PRIVACY POLICY</b></a
+                ><br />
+                <a href="#" class="close-btn">Close</a>
+            </div>
         </div>
-    </div>
 
-    <div class="lightbox" id="affiliate">
-        <div class="lightbox-content">
-            <h2>Affiliate Disclosure</h2>
-            CLICK TO VIEW<a href="/affiliate-disclosure.html" target="_blank"> <b>AFFILIATE DISCLOSURE</b></a><br>
-            <a href="#" class="close-btn">Close</a>
+        <div class="lightbox" id="cookies">
+            <div class="lightbox-content">
+                <h2>Cookie Policy</h2>
+                CLICK TO VIEW<a href="/Legal-Frameworks-ICDM-Educators-/terms-and-conditions.html/cookie-policy.html" target="_blank"> <b>COOKIE POLICY</b></a
+                ><br />
+                <a href="#" class="close-btn">Close</a>
+            </div>
         </div>
-    </div>
 
-    <div class="lightbox" id="disclaimer">
-        <div class="lightbox-content">
-            <h2>Disclaimer</h2>
-            CLICK TO VIEW<a href="/disclaimer.html" target="_blank"> <b>DISCLAIMER</b></a><br>
-            <a href="#" class="close-btn">Close</a>
+        <div class="lightbox" id="affiliate">
+            <div class="lightbox-content">
+                <h2>Affiliate Disclosure</h2>
+                CLICK TO VIEW<a href="/Legal-Frameworks-ICDM-Educators-/terms-and-conditions.html/affiliate-disclosure.html" target="_blank"> <b>AFFILIATE DISCLOSURE</b></a
+                ><br />
+                <a href="#" class="close-btn">Close</a>
+            </div>
         </div>
-    </div>
 
-    <script>
-        // Function to open the lightbox
-        const frameworkLinks = document.querySelectorAll('.framework-link');
-        const lightboxes = document.querySelectorAll('.lightbox');
-        const closeBtns = document.querySelectorAll('.close-btn');
+        <div class="lightbox" id="disclaimer">
+            <div class="lightbox-content">
+                <h2>Disclaimer</h2>
+                CLICK TO VIEW<a href="/Legal-Frameworks-ICDM-Educators-/terms-and-conditions.html/disclaimer.html" target="_blank"> <b>DISCLAIMER</b></a
+                ><br />
+                <a href="#" class="close-btn">Close</a>
+            </div>
+        </div>
 
-        frameworkLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                const targetId = link.getAttribute('data-target');
-                document.getElementById(targetId).style.display = 'flex';
+        <script>
+            // Function to open the lightbox
+            const frameworkLinks = document.querySelectorAll(".framework-link");
+            const lightboxes = document.querySelectorAll(".lightbox");
+            const closeBtns = document.querySelectorAll(".close-btn");
+
+            frameworkLinks.forEach((link) => {
+                link.addEventListener("click", () => {
+                    const targetId = link.getAttribute("data-target");
+                    document.getElementById(targetId).style.display = "flex";
+                });
             });
-        });
 
-        closeBtns.forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                e.preventDefault();
-                btn.closest('.lightbox').style.display = 'none';
+            closeBtns.forEach((btn) => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault();
+                    btn.closest(".lightbox").style.display = "none";
+                });
             });
-        });
 
-        // Close lightbox if clicked outside the content area
-        lightboxes.forEach(lightbox => {
-            lightbox.addEventListener('click', (e) => {
-                if (e.target === lightbox) {
-                    lightbox.style.display = 'none';
-                }
+            // Close lightbox if clicked outside the content area
+            lightboxes.forEach((lightbox) => {
+                lightbox.addEventListener("click", (e) => {
+                    if (e.target === lightbox) {
+                        lightbox.style.display = "none";
+                    }
+                });
             });
-        });
-    </script>
-
-</body>
+        </script>
+    </body>
 </html>
